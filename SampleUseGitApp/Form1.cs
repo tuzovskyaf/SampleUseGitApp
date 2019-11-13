@@ -16,5 +16,16 @@ namespace SampleUseGitApp
         {
             InitializeComponent();
         }
+
+        Model1 db = new Model1();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            productBindingSource.DataSource = db.Products.ToList();
+        }
+
+        private void productBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
