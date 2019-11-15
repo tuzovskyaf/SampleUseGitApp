@@ -72,8 +72,7 @@
             // 
             // productBindingSource
             // 
-            this.productBindingSource.DataSource = typeof(SampleUseGitApp.Product);
-            this.productBindingSource.CurrentChanged += new System.EventHandler(this.productBindingSource_CurrentChanged);
+            this.productBindingSource.DataSource = typeof(SampleUseGitApp.Product);            
             // 
             // productIDDataGridViewTextBoxColumn
             // 
